@@ -1,0 +1,330 @@
+body{
+    background-color:#3D087B;
+
+}
+#mast{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+#don{
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+#time{
+    width: 200px;
+   height: 100px; 
+   margin-left: 60px;
+   background-image:url(./clock.png);
+   background-repeat: no-repeat;
+   background-size:contain;
+
+}
+#up{
+    margin-left: 20px;
+}
+#table{
+    background-image: url(./sun.png);
+    background-position:20px 20px;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 300px;
+    margin: 0px;
+    padding-left: 60px;
+    padding-top: 25px;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+    border: 2px solid ;
+    border-radius: 20px;
+}
+#timings{
+    width: 270px;
+    height: 25px;
+    border-radius: 10px;
+}
+#timings:hover{
+    background-color: yellow;
+}
+.one{
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    left: 89px;
+}
+#dot{
+    width: 100px;
+    height: 100px;
+    background-image:url(./crossspoon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:195px;
+    left: 75px;
+
+}
+#launch{
+    width: 200px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+#launch-time{
+    width: 270px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 210px;
+}
+#launch-time:hover{
+    background-color: yellow;
+
+}
+.two{
+    width: 0px;
+    height: 20px;
+    position: absolute;
+    top: 230px;
+    left: 89px;
+}
+#nap-pic{
+    width: 100px;
+    height: 100px;
+    background-image: url(./nap.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:270px;    
+    left: 75px;
+}
+#nap{
+    width: 200px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: -30px;
+
+}
+#nap-time{
+    width: 270px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 30px;
+    position: absolute;
+    top: 280px;
+}
+#nap-time:hover{
+    background-color: yellow;
+}
+.three{
+    width: 0px;
+    height: 20px;
+    margin-top: 20px;
+    position: absolute;
+    top: 292px;
+    left: 89px;
+}
+#night-pic{
+    width: 100px;
+    height: 100px;
+    background-image: url(./nap.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:350px;    
+    left: 75px;
+
+}
+#night{
+    width: 200px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: -30px;
+
+
+}
+#night-time{
+    width: 270px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: absolute;
+    top: 350px;
+}
+#night-time:hover{
+    background-color: yellow;
+}
+#good{
+    color: white;
+    width: 440px;
+    height: 50px;
+    padding: 20px;
+    background-color:rgba(119, 0, 255, 0.774);
+    margin-left: 30px;
+    font-size: 27px;
+    font-weight:bold;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-align: center; */
+    font-style:normal;
+}
+#but{
+    width: 230px;
+    height: 50px;
+    background-image: linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    border-radius: 10px;
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+}
+button#but:hover span{
+    display: none;
+
+}
+button#but:hover::before{
+    content: "party time";
+}
+#box{
+    color:#F25CFE;   
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:rgba(119, 0, 255, 0.774) ;
+    padding: 10px;
+    position: absolute;
+    top: 560px;
+    left: 300px;
+
+}
+pre{
+    margin-top: 0px;
+    margin-left: -100px;
+
+}
+#right{
+    position: absolute;
+    left: -50px;
+}
+#tom{
+    width: 536px;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    position: absolute;
+    top: 40px;
+    left: 720px;
+    box-shadow: 10px 10px 5px  #EDEDED,20px 20px 5px #B85EBF ;
+
+}
+#tm{
+    color: #3D087B;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: SemiBold;
+    margin-left: 20px;
+    position: absolute;
+    top: 50px;
+    
+}
+#hr{
+    width: 60px;
+    height: 75px;
+    border-radius: 5px;
+    background-color:#F6E2FF ;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    text-align: center;
+}
+div.emp{
+    color: #3D087B;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left:170px ;
+}
+#min{
+    width: 60px;
+    height: 75px;
+    border-radius: 5px;
+    background-color:#F6E2FF ;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 190px;
+    text-align: center;
+
+}
+div.emp1{
+    color: #3D087B;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 80px; 
+
+}
+#secs{
+    width: 60px;
+    height: 75px;
+    border-radius: 5px;
+    background-color:#F6E2FF ;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    text-align: center;
+}
+#AM{
+    color: white;
+    width: 40px;
+    height: 50px;
+    background-image: url(./am\ color.png);
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 210px; 
+    padding: 10px;
+
+}
+#grab{
+    width: 536px;
+    height: 130px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: Bauhaus Hv BT, Heavy;
+    font-weight: bold;
+    position: absolute;
+    top: 160px;
+}
+.health{
+    color: #8E53F0;
+    text-align: center;
+    padding: 25px;
+
+}
+#img{
+    width: 536px;
+    height: 478px;
+    border-radius: 10px;
+    background-image: url(./component.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: absolute;
+    top: 320px;
+}
+@media screen and (min-width:100px) and (max-width:600px) {
+    #don{
+        position:absolute;
+        top: 30px;
+        left: 50px;
+    }
+    #right{
+        position: absolute;
+        top: 650px;
+        left: -650px;
+    }
+   
+}
